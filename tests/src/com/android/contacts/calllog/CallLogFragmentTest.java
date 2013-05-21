@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.contacts.calllog;
+package com.android.contacts2.calllog;
 
-import com.android.contacts.CallDetailActivity;
-import com.android.contacts.R;
-import com.android.contacts.test.FragmentTestActivity;
+import com.android.contacts2.CallDetailActivity;
+import com.android.contacts2.R;
+import com.android.contacts2.test.FragmentTestActivity;
 import com.android.internal.telephony.CallerInfo;
 
 import android.app.FragmentManager;
@@ -55,7 +55,7 @@ import java.util.Random;
  *   runtest contacts
  * or
  *   adb shell am instrument \
- *     -w com.android.contacts.tests/android.test.InstrumentationTestRunner
+ *     -w com.android.contacts2.tests/android.test.InstrumentationTestRunner
  */
 @LargeTest
 public class CallLogFragmentTest extends ActivityInstrumentationTestCase2<FragmentTestActivity> {
@@ -100,7 +100,7 @@ public class CallLogFragmentTest extends ActivityInstrumentationTestCase2<Fragme
     private View[] mList;
 
     public CallLogFragmentTest() {
-        super("com.android.contacts", FragmentTestActivity.class);
+        super("com.android.contacts2", FragmentTestActivity.class);
         mIndex = 1;
         mRnd = new Random();
     }
@@ -383,7 +383,7 @@ public class CallLogFragmentTest extends ActivityInstrumentationTestCase2<Fragme
      */
     private Bitmap getBitmap(String resName) {
         Resources r = mActivity.getResources();
-        int resid = r.getIdentifier(resName, "drawable", "com.android.contacts");
+        int resid = r.getIdentifier(resName, "drawable", "com.android.contacts2");
         BitmapDrawable d = (BitmapDrawable) r.getDrawable(resid);
         assertNotNull(d);
         return d.getBitmap();

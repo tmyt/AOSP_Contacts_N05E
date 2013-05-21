@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts.format;
+package com.android.contacts2.format;
 
 import android.database.CharArrayBuffer;
 import android.test.AndroidTestCase;

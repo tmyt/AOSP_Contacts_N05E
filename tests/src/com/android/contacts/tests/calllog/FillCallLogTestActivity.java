@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.calllog;
+package com.android.contacts2.tests.calllog;
 
-import com.android.contacts.tests.R;
+import com.android.contacts2.tests.R;
 
 import android.app.Activity;
 import android.app.LoaderManager;

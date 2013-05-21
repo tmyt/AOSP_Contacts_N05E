@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.contacts.format;
+package com.android.contacts2.format;
 
-import com.android.contacts.widget.TextWithHighlighting;
-import com.android.contacts.widget.TextWithHighlightingFactory;
+import com.android.contacts2.widget.TextWithHighlighting;
+import com.android.contacts2.widget.TextWithHighlightingFactory;
 
 import android.database.CharArrayBuffer;
 import android.graphics.Typeface;

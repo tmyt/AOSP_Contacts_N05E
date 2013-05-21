@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.allintents;
+package com.android.contacts2.tests.allintents;
 
-import com.android.contacts.tests.R;
+import com.android.contacts2.tests.R;
 import com.google.android.collect.Lists;
 
 import android.accounts.Account;
@@ -59,10 +59,10 @@ public class AllIntentsActivity extends ListActivity
         implements SelectAccountDialogFragment.Listener {
 
     /** The name of the package of the contacts application. */
-    private static final String ANDROID_CONTACTS_PACKAGE = "com.android.contacts";
+    private static final String ANDROID_CONTACTS_PACKAGE = "com.android.contacts2";
 
     private static final String CONTACT_LIST_ACTIVITY_CLASS_NAME =
-            "com.android.contacts.activities.PeopleActivity";
+            "com.android.contacts2.activities.PeopleActivity";
 
     public enum ContactsIntent {
         LIST_DEFAULT,
@@ -538,13 +538,13 @@ public class AllIntentsActivity extends ListActivity
                 }
                 final Intent intent = new Intent("android.intent.action.VIEW");
                 intent.setData(uri);
-                bindIntentToClass(intent, "com.android.contacts.CallDetailActivity");
+                bindIntentToClass(intent, "com.android.contacts2.CallDetailActivity");
                 startActivity(intent);
                 break;
             }
             case LEGACY_CALL_LOG_ACTIVITY: {
                 startActivity(bindIntentToClass(new Intent(),
-                        "com.android.contacts.activities.CallLogActivity"));
+                        "com.android.contacts2.activities.CallLogActivity"));
                 break;
             }
 

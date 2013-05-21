@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
 import android.content.Intent;
 import android.provider.ContactsContract.CommonDataKinds.Phone;

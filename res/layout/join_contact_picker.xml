@@ -15,7 +15,7 @@
 -->
 
 <view xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.contacts.widget.FullHeightLinearLayout"
+    class="com.android.contacts2.widget.FullHeightLinearLayout"
     style="@style/ContactPickerLayout"
     android:orientation="vertical">
     <FrameLayout

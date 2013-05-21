@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.contacts.tests.testauth;
+package com.android.contacts2.tests.testauth;
 
 class TestauthConstants {
     public static final String LOG_TAG = "Testauth";

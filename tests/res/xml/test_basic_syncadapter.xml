@@ -18,8 +18,8 @@
 -->
 
 <sync-adapter xmlns:android="http://schemas.android.com/apk/res/android"
-    android:contentAuthority="com.android.contacts"
-    android:accountType="com.android.contacts.tests.authtest.basic"
+    android:contentAuthority="com.android.contacts2"
+    android:accountType="com.android.contacts2.tests.authtest.basic"
     android:supportsUploading="true"
     android:userVisible="true"
 />

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.util;
+package com.android.contacts2.util;
 
-import com.android.contacts.util.ExpirableCache.CachedValue;
+import com.android.contacts2.util.ExpirableCache.CachedValue;
 
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.SmallTest;

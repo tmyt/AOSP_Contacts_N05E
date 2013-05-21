@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.android.contacts.tests.testauth;
+package com.android.contacts2.tests.testauth;
 
 import android.app.Service;
 import android.content.Intent;

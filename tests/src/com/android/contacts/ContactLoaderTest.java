@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
-import com.android.contacts.model.AccountType;
-import com.android.contacts.model.AccountWithDataSet;
-import com.android.contacts.model.BaseAccountType;
-import com.android.contacts.test.InjectedServices;
-import com.android.contacts.tests.mocks.ContactsMockContext;
-import com.android.contacts.tests.mocks.MockAccountTypeManager;
-import com.android.contacts.tests.mocks.MockContentProvider;
+import com.android.contacts2.model.AccountType;
+import com.android.contacts2.model.AccountWithDataSet;
+import com.android.contacts2.model.BaseAccountType;
+import com.android.contacts2.test.InjectedServices;
+import com.android.contacts2.tests.mocks.ContactsMockContext;
+import com.android.contacts2.tests.mocks.MockAccountTypeManager;
+import com.android.contacts2.tests.mocks.MockContentProvider;
 
 import android.content.ContentUris;
 import android.net.Uri;

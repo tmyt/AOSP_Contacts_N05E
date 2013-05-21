@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.android.contacts.activities;
+package com.android.contacts2.activities;
 
-import com.android.contacts.ContactPhotoManager;
-import com.android.contacts.ContactsApplication;
-import com.android.contacts.R;
-import com.android.contacts.detail.ContactDetailFragment;
-import com.android.contacts.interactions.TestLoaderManager;
-import com.android.contacts.list.ContactBrowseListFragment;
-import com.android.contacts.model.AccountType;
-import com.android.contacts.model.AccountTypeManager;
-import com.android.contacts.model.AccountWithDataSet;
-import com.android.contacts.model.BaseAccountType;
-import com.android.contacts.test.InjectedServices;
-import com.android.contacts.tests.mocks.ContactsMockContext;
-import com.android.contacts.tests.mocks.MockAccountTypeManager;
-import com.android.contacts.tests.mocks.MockContactPhotoManager;
-import com.android.contacts.tests.mocks.MockContentProvider;
-import com.android.contacts.tests.mocks.MockContentProvider.Query;
-import com.android.contacts.tests.mocks.MockSharedPreferences;
-import com.android.contacts.util.PhoneCapabilityTester;
+import com.android.contacts2.ContactPhotoManager;
+import com.android.contacts2.ContactsApplication;
+import com.android.contacts2.R;
+import com.android.contacts2.detail.ContactDetailFragment;
+import com.android.contacts2.interactions.TestLoaderManager;
+import com.android.contacts2.list.ContactBrowseListFragment;
+import com.android.contacts2.model.AccountType;
+import com.android.contacts2.model.AccountTypeManager;
+import com.android.contacts2.model.AccountWithDataSet;
+import com.android.contacts2.model.BaseAccountType;
+import com.android.contacts2.test.InjectedServices;
+import com.android.contacts2.tests.mocks.ContactsMockContext;
+import com.android.contacts2.tests.mocks.MockAccountTypeManager;
+import com.android.contacts2.tests.mocks.MockContactPhotoManager;
+import com.android.contacts2.tests.mocks.MockContentProvider;
+import com.android.contacts2.tests.mocks.MockContentProvider.Query;
+import com.android.contacts2.tests.mocks.MockSharedPreferences;
+import com.android.contacts2.util.PhoneCapabilityTester;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -61,7 +61,7 @@ import android.widget.TextView;
  *   runtest contacts
  * or
  *   adb shell am instrument \
- *     -w com.android.contacts.tests/android.test.InstrumentationTestRunner
+ *     -w com.android.contacts2.tests/android.test.InstrumentationTestRunner
  *
  */
 @SmallTest

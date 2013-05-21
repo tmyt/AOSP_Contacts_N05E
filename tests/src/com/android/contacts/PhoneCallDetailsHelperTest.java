@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
-import com.android.contacts.calllog.CallTypeHelper;
-import com.android.contacts.calllog.PhoneNumberHelper;
-import com.android.contacts.calllog.TestPhoneNumberHelper;
-import com.android.contacts.util.LocaleTestUtils;
+import com.android.contacts2.calllog.CallTypeHelper;
+import com.android.contacts2.calllog.PhoneNumberHelper;
+import com.android.contacts2.calllog.TestPhoneNumberHelper;
+import com.android.contacts2.util.LocaleTestUtils;
 import com.android.internal.telephony.CallerInfo;
 
 import android.content.Context;

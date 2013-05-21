@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
 import static android.content.ContentProviderOperation.TYPE_DELETE;
 import static android.content.ContentProviderOperation.TYPE_INSERT;
 import static android.content.ContentProviderOperation.TYPE_UPDATE;
 
-import com.android.contacts.model.AccountType;
-import com.android.contacts.model.AccountType.EditType;
-import com.android.contacts.model.AccountTypeManager;
-import com.android.contacts.model.DataKind;
-import com.android.contacts.model.EntityDelta;
-import com.android.contacts.model.EntityDelta.ValuesDelta;
-import com.android.contacts.model.EntityDeltaList;
-import com.android.contacts.model.EntityModifier;
-import com.android.contacts.model.ExchangeAccountType;
-import com.android.contacts.model.GoogleAccountType;
-import com.android.contacts.tests.mocks.ContactsMockContext;
-import com.android.contacts.tests.mocks.MockAccountTypeManager;
-import com.android.contacts.tests.mocks.MockContentProvider;
+import com.android.contacts2.model.AccountType;
+import com.android.contacts2.model.AccountType.EditType;
+import com.android.contacts2.model.AccountTypeManager;
+import com.android.contacts2.model.DataKind;
+import com.android.contacts2.model.EntityDelta;
+import com.android.contacts2.model.EntityDelta.ValuesDelta;
+import com.android.contacts2.model.EntityDeltaList;
+import com.android.contacts2.model.EntityModifier;
+import com.android.contacts2.model.ExchangeAccountType;
+import com.android.contacts2.model.GoogleAccountType;
+import com.android.contacts2.tests.mocks.ContactsMockContext;
+import com.android.contacts2.tests.mocks.MockAccountTypeManager;
+import com.android.contacts2.tests.mocks.MockContentProvider;
 import com.google.android.collect.Lists;
 
 import android.content.ContentProviderOperation;

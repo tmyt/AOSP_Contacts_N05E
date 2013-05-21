@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.mocks;
+package com.android.contacts2.tests.mocks;
 
-import com.android.contacts.ContactPhotoManager;
+import com.android.contacts2.ContactPhotoManager;
 
 import android.graphics.Bitmap;
 import android.net.Uri;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -31,8 +31,8 @@ public class DialerLaunchPerformance extends LaunchPerformanceBase {
     public void onCreate(Bundle arguments) {
         mIntent.setAction(Intent.ACTION_MAIN);
         mIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-        mIntent.setComponent(new ComponentName("com.android.contacts",
-                "com.android.contacts.activities.DialtactsActivity"));
+        mIntent.setComponent(new ComponentName("com.android.contacts2",
+                "com.android.contacts2.activities.DialtactsActivity"));
 
         start();
     }

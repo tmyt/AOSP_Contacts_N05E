@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.contacts.list;
+package com.android.contacts2.list;
 
-import com.android.contacts.activities.PeopleActivity;
-import com.android.contacts.format.SpannedTestUtils;
-import com.android.contacts.util.IntegrationTestUtils;
+import com.android.contacts2.activities.PeopleActivity;
+import com.android.contacts2.format.SpannedTestUtils;
+import com.android.contacts2.util.IntegrationTestUtils;
 
 import android.database.Cursor;
 import android.database.MatrixCursor;

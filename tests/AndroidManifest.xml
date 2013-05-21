@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.contacts.tests">
+    package="com.android.contacts2.tests">
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
@@ -35,7 +35,7 @@
 
     <application>
         <uses-library android:name="android.test.runner" />
-        <meta-data android:name="com.android.contacts.iconset" android:resource="@xml/iconset" />
+        <meta-data android:name="com.android.contacts2.iconset" android:resource="@xml/iconset" />
 
         <activity android:name=".allintents.AllIntentsActivity"
             android:label="@string/contactsIntents"
@@ -130,17 +130,17 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-        android:targetPackage="com.android.contacts"
+        android:targetPackage="com.android.contacts2"
         android:label="Contacts app tests">
     </instrumentation>
 
-    <instrumentation android:name="com.android.contacts.ContactsLaunchPerformance"
-        android:targetPackage="com.android.contacts"
+    <instrumentation android:name="com.android.contacts2.ContactsLaunchPerformance"
+        android:targetPackage="com.android.contacts2"
         android:label="Contacts launch performance">
     </instrumentation>
 
-    <instrumentation android:name="com.android.contacts.DialerLaunchPerformance"
-        android:targetPackage="com.android.contacts"
+    <instrumentation android:name="com.android.contacts2.DialerLaunchPerformance"
+        android:targetPackage="com.android.contacts2"
         android:label="Dialer launch performance">
     </instrumentation>
 

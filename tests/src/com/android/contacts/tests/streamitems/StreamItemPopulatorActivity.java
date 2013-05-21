@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.streamitems;
+package com.android.contacts2.tests.streamitems;
 
-import com.android.contacts.model.GoogleAccountType;
-import com.android.contacts.tests.R;
+import com.android.contacts2.model.GoogleAccountType;
+import com.android.contacts2.tests.R;
 import com.google.android.collect.Lists;
 
 import android.app.Activity;
@@ -263,7 +263,7 @@ public class StreamItemPopulatorActivity extends Activity {
                 + (includeComments ? " [c]" : "")
                 + (includeAction ? " [a]" : ""));
         if (includeAttribution) {
-            values.put(StreamItems.RES_PACKAGE, "com.android.contacts.tests");
+            values.put(StreamItems.RES_PACKAGE, "com.android.contacts2.tests");
             int sourceIndex = randInt(labelResources.length);
             values.put(StreamItems.RES_LABEL, labelResources[sourceIndex]);
             if (sourceIndex < iconResources.length) {

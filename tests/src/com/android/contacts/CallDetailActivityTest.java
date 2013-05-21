@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
-import static com.android.contacts.CallDetailActivity.Tasks.UPDATE_PHONE_CALL_DETAILS;
-import static com.android.contacts.voicemail.VoicemailPlaybackPresenter.Tasks.CHECK_FOR_CONTENT;
-import static com.android.contacts.voicemail.VoicemailPlaybackPresenter.Tasks.PREPARE_MEDIA_PLAYER;
+import static com.android.contacts2.CallDetailActivity.Tasks.UPDATE_PHONE_CALL_DETAILS;
+import static com.android.contacts2.voicemail.VoicemailPlaybackPresenter.Tasks.CHECK_FOR_CONTENT;
+import static com.android.contacts2.voicemail.VoicemailPlaybackPresenter.Tasks.PREPARE_MEDIA_PLAYER;
 
-import com.android.contacts.util.AsyncTaskExecutors;
-import com.android.contacts.util.FakeAsyncTaskExecutor;
-import com.android.contacts.util.IntegrationTestUtils;
-import com.android.contacts.util.LocaleTestUtils;
+import com.android.contacts2.util.AsyncTaskExecutors;
+import com.android.contacts2.util.FakeAsyncTaskExecutor;
+import com.android.contacts2.util.IntegrationTestUtils;
+import com.android.contacts2.util.LocaleTestUtils;
 import com.android.internal.view.menu.ContextMenuBuilder;
 import com.google.common.io.Closeables;
 

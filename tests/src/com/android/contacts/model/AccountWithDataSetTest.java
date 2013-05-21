@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts.model;
+package com.android.contacts2.model;
 
 import com.google.common.collect.Lists;
 
@@ -28,8 +28,8 @@ import java.util.List;
 /**
  * Test case for {@link AccountWithDataSet}.
  *
- * adb shell am instrument -w -e class com.android.contacts.model.AccountWithDataSetTest \
-       com.android.contacts.tests/android.test.InstrumentationTestRunner
+ * adb shell am instrument -w -e class com.android.contacts2.model.AccountWithDataSetTest \
+       com.android.contacts2.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class AccountWithDataSetTest extends AndroidTestCase {

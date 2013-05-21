@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.contacts;
+package com.android.contacts2;
 
-import com.android.contacts.activities.ContactDetailActivity;
-import com.android.contacts.tests.mocks.ContactsMockContext;
-import com.android.contacts.tests.mocks.MockContentProvider;
+import com.android.contacts2.activities.ContactDetailActivity;
+import com.android.contacts2.tests.mocks.ContactsMockContext;
+import com.android.contacts2.tests.mocks.MockContentProvider;
 
 import android.test.ActivityUnitTestCase;
 import android.test.suitebuilder.annotation.SmallTest;

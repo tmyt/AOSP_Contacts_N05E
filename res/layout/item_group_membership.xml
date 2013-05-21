@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.android.contacts.editor.GroupMembershipView
+<com.android.contacts2.editor.GroupMembershipView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/group_membership_view"
     android:layout_width="match_parent"
@@ -37,4 +37,4 @@
         android:focusable="true"
         android:paddingLeft="12dip" />
 
-</com.android.contacts.editor.GroupMembershipView>
+</com.android.contacts2.editor.GroupMembershipView>

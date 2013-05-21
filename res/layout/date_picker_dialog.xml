@@ -18,7 +18,7 @@
 -->
 
 <view xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.contacts.datepicker.DatePicker"
+    class="com.android.contacts2.datepicker.DatePicker"
     android:id="@+id/datePicker"
     android:padding="5dip"
     android:layout_gravity="center_horizontal"

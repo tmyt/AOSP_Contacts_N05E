@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts.util;
+package com.android.contacts2.util;
 
 import android.content.Context;
 import android.content.res.Configuration;

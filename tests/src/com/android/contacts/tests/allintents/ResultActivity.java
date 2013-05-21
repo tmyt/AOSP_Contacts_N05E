@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.allintents;
+package com.android.contacts2.tests.allintents;
 
-import com.android.contacts.tests.R;
+import com.android.contacts2.tests.R;
 
 import android.app.Activity;
 import android.content.ContentUris;

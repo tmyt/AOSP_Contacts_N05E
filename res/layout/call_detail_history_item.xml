@@ -31,7 +31,7 @@
         android:orientation="horizontal"
     >
         <view
-            class="com.android.contacts.calllog.CallTypeIconsView"
+            class="com.android.contacts2.calllog.CallTypeIconsView"
             android:id="@+id/call_type_icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

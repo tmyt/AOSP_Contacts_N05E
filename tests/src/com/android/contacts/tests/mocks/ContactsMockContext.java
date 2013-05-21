@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.mocks;
+package com.android.contacts2.tests.mocks;
 
-import com.android.contacts.model.AccountTypeManager;
+import com.android.contacts2.model.AccountTypeManager;
 
 import android.content.ContentResolver;
 import android.content.Context;

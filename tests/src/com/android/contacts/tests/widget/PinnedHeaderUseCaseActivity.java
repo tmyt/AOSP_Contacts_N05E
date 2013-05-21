@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests.widget;
+package com.android.contacts2.tests.widget;
 
-import com.android.contacts.tests.R;
-import com.android.contacts.widget.PinnedHeaderListView;
+import com.android.contacts2.tests.R;
+import com.android.contacts2.widget.PinnedHeaderListView;
 
 import android.app.ListActivity;
 import android.content.ComponentName;
@@ -76,8 +76,8 @@ public class PinnedHeaderUseCaseActivity extends ListActivity {
     private void startActivity(int[] counts, String[] names, boolean[] headers,
             boolean[] showIfEmpty, int[] delays) {
         Intent intent = new Intent();
-        intent.setComponent(new ComponentName("com.android.contacts",
-                "com.android.contacts.widget.PinnedHeaderListDemoActivity"));
+        intent.setComponent(new ComponentName("com.android.contacts2",
+                "com.android.contacts2.widget.PinnedHeaderListDemoActivity"));
         intent.putExtra("counts", counts);
         intent.putExtra("names", names);
         intent.putExtra("headers", headers);

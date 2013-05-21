@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts.calllog;
+package com.android.contacts2.calllog;
 
 import static com.google.android.collect.Lists.newArrayList;
 

@@ -19,7 +19,7 @@
     android:layout_height="match_parent">
 
     <fragment
-        class="com.android.contacts.group.GroupDetailFragment"
+        class="com.android.contacts2.group.GroupDetailFragment"
         android:id="@+id/group_detail_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.contacts.interactions;
+package com.android.contacts2.interactions;
 
-import com.android.contacts.interactions.PhoneNumberInteraction.InteractionType;
-import com.android.contacts.interactions.PhoneNumberInteraction.PhoneItem;
-import com.android.contacts.tests.mocks.ContactsMockContext;
-import com.android.contacts.tests.mocks.MockContentProvider;
-import com.android.contacts.tests.mocks.MockContentProvider.Query;
+import com.android.contacts2.interactions.PhoneNumberInteraction.InteractionType;
+import com.android.contacts2.interactions.PhoneNumberInteraction.PhoneItem;
+import com.android.contacts2.tests.mocks.ContactsMockContext;
+import com.android.contacts2.tests.mocks.MockContentProvider;
+import com.android.contacts2.tests.mocks.MockContentProvider.Query;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -47,7 +47,7 @@ import java.util.List;
  *   runtest contacts
  * or
  *   adb shell am instrument \
- *     -w com.android.contacts.tests/android.test.InstrumentationTestRunner
+ *     -w com.android.contacts2.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class PhoneNumberInteractionTest extends InstrumentationTestCase {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts.tests;
+package com.android.contacts2.tests;
 
 import com.android.i18n.phonenumbers.NumberParseException;
 import com.android.i18n.phonenumbers.PhoneNumberUtil;
@@ -37,12 +37,12 @@ import java.util.Set;
    Usage:
      adb shell am startservice -e n PHONE_NUMBER \
        [-e c OPTIONAL COUNTRY CODE]  \
-       com.android.contacts.tests/.PhoneNumberTestService
+       com.android.contacts2.tests/.PhoneNumberTestService
 
    Example:
 
    adb shell am startservice -e n '6502530000' \
-     com.android.contacts.tests/.PhoneNumberTestService
+     com.android.contacts2.tests/.PhoneNumberTestService
  */
 public class PhoneNumberTestService extends IntentService {
     private static final String TAG = "phonenumber";

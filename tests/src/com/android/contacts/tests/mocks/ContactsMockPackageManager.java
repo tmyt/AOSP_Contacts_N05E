@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.contacts.tests.mocks;
+package com.android.contacts2.tests.mocks;
 
 import android.content.ComponentName;
 import android.content.pm.ApplicationInfo;

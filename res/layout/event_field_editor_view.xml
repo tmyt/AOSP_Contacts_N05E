@@ -16,7 +16,7 @@
 
 <!-- Editor for a single event entry in the contact editor -->
 
-<com.android.contacts.editor.EventFieldEditorView
+<com.android.contacts2.editor.EventFieldEditorView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/editor_min_line_item_height"
@@ -51,4 +51,4 @@
 
     </LinearLayout>
 
-</com.android.contacts.editor.EventFieldEditorView>
+</com.android.contacts2.editor.EventFieldEditorView>

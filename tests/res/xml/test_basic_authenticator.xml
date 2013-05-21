@@ -18,7 +18,7 @@
 -->
 
 <account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
-    android:accountType="com.android.contacts.tests.authtest.basic"
+    android:accountType="com.android.contacts2.tests.authtest.basic"
     android:icon="@drawable/ic_contact_picture"
     android:smallIcon="@drawable/ic_contact_picture"
     android:label="@string/authenticator_basic_label"

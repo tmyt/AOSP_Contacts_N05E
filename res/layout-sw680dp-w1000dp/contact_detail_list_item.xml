@@ -24,7 +24,7 @@
     android:layout_height="wrap_content"
     android:paddingLeft="16dip">
 
-    <com.android.contacts.detail.ActionsViewContainer
+    <com.android.contacts2.detail.ActionsViewContainer
         android:id="@+id/actions_view_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,5 +113,5 @@
                 android:scaleType="center"
                 android:duplicateParentState="false" />
         </FrameLayout>
-    </com.android.contacts.detail.ActionsViewContainer>
+    </com.android.contacts2.detail.ActionsViewContainer>
 </FrameLayout>

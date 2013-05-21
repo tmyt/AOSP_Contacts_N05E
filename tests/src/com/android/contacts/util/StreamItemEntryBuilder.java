@@ -14,9 +14,9 @@
  * limitations under the License
  */
 
-package com.android.contacts.util;
+package com.android.contacts2.util;
 
-import com.android.contacts.util.StreamItemEntry;
+import com.android.contacts2.util.StreamItemEntry;
 
 import android.content.Context;
 

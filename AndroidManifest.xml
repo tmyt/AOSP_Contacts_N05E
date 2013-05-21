@@ -15,12 +15,13 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.contacts"
-    android:sharedUserId="android.uid.shared">
+    package="com.android.contacts2"
+	>
 
-    <original-package android:name="com.android.contacts" />
+    <original-package android:name="com.android.contacts2" />
 
     <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
@@ -53,10 +54,10 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
-        android:name="com.android.contacts.ContactsApplication"
+        android:name="com.android.contacts2.ContactsApplication"
         android:label="@string/contactsList"
         android:icon="@mipmap/ic_launcher_contacts"
-        android:taskAffinity="android.task.contacts"
+        android:taskAffinity="android.task.contacts2"
         android:hardwareAccelerated="true"
     >
 
@@ -123,7 +124,7 @@
             android:icon="@mipmap/ic_launcher_phone"
             android:screenOrientation="portrait"
             android:enabled="@*android:bool/config_voice_capable"
-            android:taskAffinity="android.task.contacts.phone"
+            android:taskAffinity="android.task.contacts2.phone"
             android:windowSoftInputMode="stateAlwaysHidden|adjustNothing">
             <intent-filter>
                 <action android:name="android.intent.action.DIAL" />
@@ -466,7 +467,7 @@
             android:theme="@style/CallDetailActivityTheme"
             android:screenOrientation="nosensor"
             android:icon="@mipmap/ic_launcher_phone"
-            android:taskAffinity="android.task.contacts.phone"
+            android:taskAffinity="android.task.contacts2.phone"
         >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -662,7 +663,7 @@
             android:permission="android.permission.WRITE_CONTACTS"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.android.contacts.VIEW_NOTIFICATION" />
+                <action android:name="com.android.contacts2.VIEW_NOTIFICATION" />
                 <data android:mimeType="vnd.android.cursor.item/contact" />
             </intent-filter>
         </service>

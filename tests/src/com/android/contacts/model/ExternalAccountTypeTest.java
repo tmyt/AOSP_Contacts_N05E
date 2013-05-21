@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts.model;
+package com.android.contacts2.model;
 
-import com.android.contacts.tests.R;
+import com.android.contacts2.tests.R;
 
 import android.content.Context;
 import android.provider.ContactsContract.CommonDataKinds.Email;
@@ -40,8 +40,8 @@ import libcore.util.Objects;
 /**
  * Test case for {@link ExternalAccountType}.
  *
- * adb shell am instrument -w -e class com.android.contacts.model.ExternalAccountTypeTest \
-       com.android.contacts.tests/android.test.InstrumentationTestRunner
+ * adb shell am instrument -w -e class com.android.contacts2.model.ExternalAccountTypeTest \
+       com.android.contacts2.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class ExternalAccountTypeTest extends AndroidTestCase {
