@@ -265,7 +265,7 @@ public class ContactsUtils {
      * information about call origin, see comments in Phone package (PhoneApp).
      */
     public static Intent getCallIntent(Uri uri, String callOrigin) {
-        final Intent intent = new Intent(Intent.ACTION_DIAL, uri);
+        final Intent intent = new Intent(Intent.ACTION_CALL, uri);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         if (callOrigin != null) {
             intent.putExtra(DialtactsActivity.EXTRA_CALL_ORIGIN, callOrigin);
@@ -277,7 +277,7 @@ public class ContactsUtils {
      * Return an Intent for launching voicemail screen.
      */
     public static Intent getVoicemailIntent() {
-        final Intent intent = new Intent(Intent.ACTION_DIAL,
+        final Intent intent = new Intent(Intent.ACTION_CALL,
                 Uri.fromParts("voicemail", "", null));
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         return intent;

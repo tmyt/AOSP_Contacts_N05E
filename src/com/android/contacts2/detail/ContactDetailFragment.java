@@ -1961,7 +1961,7 @@ public class ContactDetailFragment extends Fragment implements FragmentKeyListen
                 if (index != -1) {
                     final DetailViewEntry entry = (DetailViewEntry) mAdapter.getItem(index);
                     if (entry != null && entry.intent != null &&
-                            entry.intent.getAction() == Intent.ACTION_DIAL) {
+                            entry.intent.getAction() == Intent.ACTION_CALL) {
                         mContext.startActivity(entry.intent);
                         return true;
                     }
