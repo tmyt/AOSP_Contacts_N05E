@@ -691,11 +691,11 @@ import libcore.util.Objects;
         if (!needsUpdate) return;
 
         if (countryIso == null) {
-            mContext.getContentResolver().update(Calls.CONTENT_URI_WITH_VOICEMAIL, values,
+            mContext.getContentResolver().update(Calls.CONTENT_URI, values,
                     Calls.NUMBER + " = ? AND " + Calls.COUNTRY_ISO + " IS NULL",
                     new String[]{ number });
         } else {
-            mContext.getContentResolver().update(Calls.CONTENT_URI_WITH_VOICEMAIL, values,
+            mContext.getContentResolver().update(Calls.CONTENT_URI, values,
                     Calls.NUMBER + " = ? AND " + Calls.COUNTRY_ISO + " = ?",
                     new String[]{ number, countryIso });
         }

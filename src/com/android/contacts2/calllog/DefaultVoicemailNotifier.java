@@ -255,7 +255,7 @@ public class DefaultVoicemailNotifier implements VoicemailNotifier {
             final String[] selectionArgs = new String[]{ Integer.toString(Calls.VOICEMAIL_TYPE) };
             Cursor cursor = null;
             try {
-                cursor = mContentResolver.query(Calls.CONTENT_URI_WITH_VOICEMAIL, PROJECTION,
+                cursor = mContentResolver.query(Calls.CONTENT_URI, PROJECTION,
                         selection, selectionArgs, Calls.DEFAULT_SORT_ORDER);
                 if (cursor == null) {
                     return null;
@@ -274,7 +274,7 @@ public class DefaultVoicemailNotifier implements VoicemailNotifier {
         private NewCall createNewCallsFromCursor(Cursor cursor) {
             String voicemailUriString = cursor.getString(VOICEMAIL_URI_COLUMN_INDEX);
             Uri callsUri = ContentUris.withAppendedId(
-                    Calls.CONTENT_URI_WITH_VOICEMAIL, cursor.getLong(ID_COLUMN_INDEX));
+                    Calls.CONTENT_URI, cursor.getLong(ID_COLUMN_INDEX));
             Uri voicemailUri = voicemailUriString == null ? null : Uri.parse(voicemailUriString);
             return new NewCall(callsUri, voicemailUri, cursor.getString(NUMBER_COLUMN_INDEX));
         }

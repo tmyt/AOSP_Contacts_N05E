@@ -355,7 +355,7 @@ public class CallDetailActivity extends Activity implements ProximitySensorAware
         long[] ids = getIntent().getLongArrayExtra(EXTRA_CALL_LOG_IDS);
         Uri[] uris = new Uri[ids.length];
         for (int index = 0; index < ids.length; ++index) {
-            uris[index] = ContentUris.withAppendedId(Calls.CONTENT_URI_WITH_VOICEMAIL, ids[index]);
+            uris[index] = ContentUris.withAppendedId(Calls.CONTENT_URI, ids[index]);
         }
         return uris;
     }
@@ -804,7 +804,7 @@ public class CallDetailActivity extends Activity implements ProximitySensorAware
                 new AsyncTask<Void, Void, Void>() {
                     @Override
                     public Void doInBackground(Void... params) {
-                        getContentResolver().delete(Calls.CONTENT_URI_WITH_VOICEMAIL,
+                        getContentResolver().delete(Calls.CONTENT_URI,
                                 Calls._ID + " IN (" + callIds + ")", null);
                         return null;
                     }

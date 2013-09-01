@@ -21,6 +21,8 @@ LOCAL_CERTIFICATE := shared
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+LOCAL_DEX_PREOPT := false
+
 include $(BUILD_PACKAGE)
 
 # Use the folloing include to make our test apk.

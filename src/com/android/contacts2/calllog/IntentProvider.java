@@ -51,7 +51,7 @@ public abstract class IntentProvider {
             public Intent getIntent(Context context) {
                 Intent intent = new Intent(context, CallDetailActivity.class);
                 intent.setData(ContentUris.withAppendedId(
-                        Calls.CONTENT_URI_WITH_VOICEMAIL, rowId));
+                        Calls.CONTENT_URI, rowId));
                 if (voicemailUri != null) {
                     intent.putExtra(CallDetailActivity.EXTRA_VOICEMAIL_URI,
                             Uri.parse(voicemailUri));
@@ -94,7 +94,7 @@ public abstract class IntentProvider {
                 } else {
                     // If there is a single item, use the direct URI for it.
                     intent.setData(ContentUris.withAppendedId(
-                            Calls.CONTENT_URI_WITH_VOICEMAIL, id));
+                            Calls.CONTENT_URI, id));
                 }
                 return intent;
             }

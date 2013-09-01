@@ -169,16 +169,10 @@ import javax.annotation.concurrent.GuardedBy;
      * It will asynchronously update the content of the list view when the fetch completes.
      */
     public void fetchVoicemailOnly() {
-        cancelFetch();
-        int requestId = newCallsRequest();
-        fetchCalls(QUERY_NEW_CALLS_TOKEN, requestId, true /*isNew*/, true /*voicemailOnly*/);
-        fetchCalls(QUERY_OLD_CALLS_TOKEN, requestId, false /*isNew*/, true /*voicemailOnly*/);
     }
 
 
     public void fetchVoicemailStatus() {
-        startQuery(QUERY_VOICEMAIL_STATUS_TOKEN, null, Status.CONTENT_URI,
-                VoicemailStatusHelperImpl.PROJECTION, null, null, null);
     }
 
     /** Fetches the list of calls in the call log, either the new one or the old ones. */
@@ -199,7 +193,7 @@ import javax.annotation.concurrent.GuardedBy;
             selection = String.format("(%s) AND (%s = ?)", selection, Calls.TYPE);
             selectionArgs.add(Integer.toString(Calls.VOICEMAIL_TYPE));
         }
-        startQuery(token, requestId, Calls.CONTENT_URI_WITH_VOICEMAIL,
+        startQuery(token, requestId, Calls.CONTENT_URI,
                 CallLogQuery._PROJECTION, selection, selectionArgs.toArray(EMPTY_STRING_ARRAY),
                 Calls.DEFAULT_SORT_ORDER);
     }
@@ -212,32 +206,10 @@ import javax.annotation.concurrent.GuardedBy;
 
     /** Updates all new calls to mark them as old. */
     public void markNewCallsAsOld() {
-        // Mark all "new" calls as not new anymore.
-        StringBuilder where = new StringBuilder();
-        where.append(Calls.NEW);
-        where.append(" = 1");
-
-        ContentValues values = new ContentValues(1);
-        values.put(Calls.NEW, "0");
-
-        startUpdate(UPDATE_MARK_AS_OLD_TOKEN, null, Calls.CONTENT_URI_WITH_VOICEMAIL,
-                values, where.toString(), null);
     }
 
     /** Updates all new voicemails to mark them as old. */
     public void markNewVoicemailsAsOld() {
-        // Mark all "new" voicemails as not new anymore.
-        StringBuilder where = new StringBuilder();
-        where.append(Calls.NEW);
-        where.append(" = 1 AND ");
-        where.append(Calls.TYPE);
-        where.append(" = ?");
-
-        ContentValues values = new ContentValues(1);
-        values.put(Calls.NEW, "0");
-
-        startUpdate(UPDATE_MARK_VOICEMAILS_AS_OLD_TOKEN, null, Calls.CONTENT_URI_WITH_VOICEMAIL,
-                values, where.toString(), new String[]{ Integer.toString(Calls.VOICEMAIL_TYPE) });
     }
 
     /** Updates all missed calls to mark them as read. */
@@ -347,10 +319,6 @@ import javax.annotation.concurrent.GuardedBy;
     }
 
     private void updateVoicemailStatus(Cursor statusCursor) {
-        final Listener listener = mListener.get();
-        if (listener != null) {
-            listener.onVoicemailStatusFetched(statusCursor);
-        }
     }
 
     /** Listener to completion of various queries. */
