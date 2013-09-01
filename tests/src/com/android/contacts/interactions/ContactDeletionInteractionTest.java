@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.interactions;
+package com.android.n05e.contacts.interactions;
 
-import com.android.contacts2.ContactsApplication;
-import com.android.contacts2.R;
-import com.android.contacts2.model.AccountType;
-import com.android.contacts2.model.AccountTypeManager;
-import com.android.contacts2.model.BaseAccountType;
-import com.android.contacts2.test.FragmentTestActivity;
-import com.android.contacts2.test.InjectedServices;
-import com.android.contacts2.tests.mocks.ContactsMockContext;
-import com.android.contacts2.tests.mocks.MockAccountTypeManager;
-import com.android.contacts2.tests.mocks.MockContentProvider;
-import com.android.contacts2.tests.mocks.MockContentProvider.Query;
-import com.android.contacts2.util.IntegrationTestUtils;
+import com.android.n05e.contacts.ContactsApplication;
+import com.android.n05e.contacts.R;
+import com.android.n05e.contacts.model.AccountType;
+import com.android.n05e.contacts.model.AccountTypeManager;
+import com.android.n05e.contacts.model.BaseAccountType;
+import com.android.n05e.contacts.test.FragmentTestActivity;
+import com.android.n05e.contacts.test.InjectedServices;
+import com.android.n05e.contacts.tests.mocks.ContactsMockContext;
+import com.android.n05e.contacts.tests.mocks.MockAccountTypeManager;
+import com.android.n05e.contacts.tests.mocks.MockContentProvider;
+import com.android.n05e.contacts.tests.mocks.MockContentProvider.Query;
+import com.android.n05e.contacts.util.IntegrationTestUtils;
 
 import android.content.ContentUris;
 import android.net.Uri;
@@ -45,7 +45,7 @@ import android.test.suitebuilder.annotation.SmallTest;
  *   runtest contacts
  * or
  *   adb shell am instrument \
- *     -w com.android.contacts2.tests/android.test.InstrumentationTestRunner
+ *     -w com.android.n05e.contacts.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class ContactDeletionInteractionTest

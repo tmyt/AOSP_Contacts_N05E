@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.tests;
+package com.android.n05e.contacts.tests;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -30,13 +30,13 @@ import android.util.Log;
    Usage:
      adb shell am startservice -d URI \
        [-e p OPTIONAL PROJECTION] [-e s OPTIONAL SELECTION] [-e s OPTIONAL ORDER BY]  \
-       com.android.contacts2.tests/.QueryService
+       com.android.n05e.contacts.tests/.QueryService
 
    Example:
 
-   adb shell am startservice -d content://com.android.contacts2/directories \
+   adb shell am startservice -d content://com.android.n05e.contacts/directories \
      -e p accountName,accountType -e s 'accountName NOT NULL' -e o '_id'  \
-     com.android.contacts2.tests/.QueryService
+     com.android.n05e.contacts.tests/.QueryService
  */
 public class QueryService extends IntentService {
     private static final String TAG = "contactsquery";

@@ -16,7 +16,7 @@
 
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.contacts2.list.ContactListFilterView"
+    class="com.android.n05e.contacts.list.ContactListFilterView"
     android:descendantFocusability="blocksDescendants"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

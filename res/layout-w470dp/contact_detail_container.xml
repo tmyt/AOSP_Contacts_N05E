@@ -18,7 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.android.contacts2.detail.ContactDetailFragmentCarousel
+    <com.android.n05e.contacts.detail.ContactDetailFragmentCarousel
         android:id="@+id/fragment_carousel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

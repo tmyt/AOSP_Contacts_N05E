@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.util;
+package com.android.n05e.contacts.util;
 
-import com.android.contacts2.util.HtmlUtils.StreamItemQuoteSpan;
+import com.android.n05e.contacts.util.HtmlUtils.StreamItemQuoteSpan;
 
 import android.graphics.drawable.ColorDrawable;
 import android.test.AndroidTestCase;
@@ -30,8 +30,8 @@ import android.text.style.QuoteSpan;
 /**
  * Tests for {@link HtmlUtils}.
  *
- * adb shell am instrument -w -e class com.android.contacts2.util.HtmlUtilsTest \
-       com.android.contacts2.tests/android.test.InstrumentationTestRunner
+ * adb shell am instrument -w -e class com.android.n05e.contacts.util.HtmlUtilsTest \
+       com.android.n05e.contacts.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class HtmlUtilsTest extends AndroidTestCase {

@@ -33,7 +33,7 @@
         android:gravity="center"
         android:background="@drawable/dialpad_background" >
 
-        <com.android.contacts2.dialpad.DigitsEditText
+        <com.android.n05e.contacts.dialpad.DigitsEditText
             android:id="@+id/digits"
             android:layout_width="0dip"
             android:layout_weight="1"

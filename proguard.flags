@@ -1,4 +1,4 @@
--keep class com.android.contacts2.model.Sources {
+-keep class com.android.n05e.contacts.model.Sources {
   public <init>(...);
 }
 
@@ -10,11 +10,11 @@
 }
 
 # Any class or method annotated with NeededForTesting or NeededForReflection.
--keep @com.android.contacts2.test.NeededForTesting class *
--keep @com.android.contacts2.test.NeededForReflection class *
+-keep @com.android.n05e.contacts.test.NeededForTesting class *
+-keep @com.android.n05e.contacts.test.NeededForReflection class *
 -keepclassmembers class * {
-@com.android.contacts2.test.NeededForTesting *;
-@com.android.contacts2.test.NeededForReflection *;
+@com.android.n05e.contacts.test.NeededForTesting *;
+@com.android.n05e.contacts.test.NeededForReflection *;
 }
 
 -verbose

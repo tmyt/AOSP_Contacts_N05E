@@ -16,7 +16,7 @@
 
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts2"
+    xmlns:ex="http://schemas.android.com/apk/res/com.android.n05e.contacts"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -40,21 +40,21 @@
             <!-- All -->
             <fragment
                 android:id="@+id/all_fragment"
-                class="com.android.contacts2.list.DefaultContactBrowseListFragment"
+                class="com.android.n05e.contacts.list.DefaultContactBrowseListFragment"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent" />
 
             <!-- Groups -->
             <fragment
                 android:id="@+id/groups_fragment"
-                class="com.android.contacts2.group.GroupBrowseListFragment"
+                class="com.android.n05e.contacts.group.GroupBrowseListFragment"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent" />
         </FrameLayout>
 
         <!-- Right panel detail view for All tab -->
         <view
-            class="com.android.contacts2.widget.TransitionAnimationView"
+            class="com.android.n05e.contacts.widget.TransitionAnimationView"
             android:id="@+id/contact_details_view"
             android:layout_width="0dip"
             android:layout_height="match_parent"
@@ -72,7 +72,7 @@
             <!-- This invisible worker fragment loads the contact's details -->
             <fragment
                 android:id="@+id/contact_detail_loader_fragment"
-                class="com.android.contacts2.detail.ContactLoaderFragment"
+                class="com.android.n05e.contacts.detail.ContactLoaderFragment"
                 android:layout_height="0dip"
                 android:layout_width="0dip"
                 android:visibility="gone"/>
@@ -80,7 +80,7 @@
 
         <!-- Right panel detail view for Groups tab -->
         <view
-            class="com.android.contacts2.widget.TransitionAnimationView"
+            class="com.android.n05e.contacts.widget.TransitionAnimationView"
             android:id="@+id/group_details_view"
             android:layout_width="0dip"
             android:layout_height="match_parent"
@@ -91,7 +91,7 @@
             <!-- This is the group detail page -->
             <fragment
                 android:id="@+id/group_detail_fragment"
-                class="com.android.contacts2.group.GroupDetailFragment"
+                class="com.android.n05e.contacts.group.GroupDetailFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />
@@ -114,7 +114,7 @@
 
                 <fragment
                     android:id="@+id/favorites_fragment"
-                    class="com.android.contacts2.list.ContactTileListFragment"
+                    class="com.android.n05e.contacts.list.ContactTileListFragment"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:layout_marginRight="16dip"
@@ -125,7 +125,7 @@
             <!-- Most Frequent -->
             <fragment
                 android:id="@+id/frequent_fragment"
-                class="com.android.contacts2.list.ContactTileFrequentFragment"
+                class="com.android.n05e.contacts.list.ContactTileFrequentFragment"
                 android:layout_width="0dip"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -136,7 +136,7 @@
 
     </LinearLayout>
 
-    <com.android.contacts2.widget.InterpolatingLayout
+    <com.android.n05e.contacts.widget.InterpolatingLayout
         android:id="@+id/contacts_unavailable_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -154,5 +154,5 @@
             ex:layout_wideMarginRight="200dip"
             android:paddingBottom="20dip" />
 
-    </com.android.contacts2.widget.InterpolatingLayout>
+    </com.android.n05e.contacts.widget.InterpolatingLayout>
 </FrameLayout>

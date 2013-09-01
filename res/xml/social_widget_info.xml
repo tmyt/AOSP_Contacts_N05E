@@ -22,5 +22,5 @@
     android:updatePeriodMillis="86400000"
     android:initialLayout="@layout/social_widget"
     android:previewImage="@drawable/contacts_widget_preview"
-    android:configure="com.android.contacts2.socialwidget.SocialWidgetConfigureActivity" >
+    android:configure="com.android.n05e.contacts.socialwidget.SocialWidgetConfigureActivity" >
 </appwidget-provider>

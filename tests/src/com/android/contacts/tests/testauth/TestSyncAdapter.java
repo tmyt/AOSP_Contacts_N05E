@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.android.contacts2.tests.testauth;
+package com.android.n05e.contacts.tests.testauth;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

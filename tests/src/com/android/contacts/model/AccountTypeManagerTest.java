@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.model;
+package com.android.n05e.contacts.model;
 
 import com.google.android.collect.Lists;
 import com.google.android.collect.Maps;
@@ -31,8 +31,8 @@ import java.util.Map;
 /**
  * Test case for {@link AccountTypeManager}.
  *
- * adb shell am instrument -w -e class com.android.contacts2.model.AccountTypeManagerTest \
-       com.android.contacts2.tests/android.test.InstrumentationTestRunner
+ * adb shell am instrument -w -e class com.android.n05e.contacts.model.AccountTypeManagerTest \
+       com.android.n05e.contacts.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class AccountTypeManagerTest extends AndroidTestCase {

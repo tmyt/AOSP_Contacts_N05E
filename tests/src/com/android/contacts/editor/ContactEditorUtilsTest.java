@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.editor;
+package com.android.n05e.contacts.editor;
 
-import com.android.contacts2.editor.ContactEditorUtils;
-import com.android.contacts2.model.AccountType;
-import com.android.contacts2.model.AccountWithDataSet;
-import com.android.contacts2.tests.mocks.MockAccountTypeManager;
+import com.android.n05e.contacts.editor.ContactEditorUtils;
+import com.android.n05e.contacts.model.AccountType;
+import com.android.n05e.contacts.model.AccountWithDataSet;
+import com.android.n05e.contacts.tests.mocks.MockAccountTypeManager;
 import com.google.android.collect.Sets;
 
 import android.content.Context;
@@ -33,8 +33,8 @@ import java.util.Set;
 /**
  * Test case for {@link ContactEditorUtils}.
  *
- * adb shell am instrument -w -e class com.android.contacts2.editor.ContactEditorUtilsTest \
-       com.android.contacts2.tests/android.test.InstrumentationTestRunner
+ * adb shell am instrument -w -e class com.android.n05e.contacts.editor.ContactEditorUtilsTest \
+       com.android.n05e.contacts.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class ContactEditorUtilsTest extends AndroidTestCase {

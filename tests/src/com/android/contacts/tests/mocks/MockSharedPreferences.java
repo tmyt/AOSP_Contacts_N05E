@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.tests.mocks;
+package com.android.n05e.contacts.tests.mocks;
 
 import com.google.android.collect.Maps;
 

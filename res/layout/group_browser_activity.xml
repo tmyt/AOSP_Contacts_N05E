@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/list_fragment"
-        class="com.android.contacts2.group.GroupBrowseListFragment"
+        class="com.android.n05e.contacts.group.GroupBrowseListFragment"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
     />

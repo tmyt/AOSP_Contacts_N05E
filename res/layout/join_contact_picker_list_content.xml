@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <view
-            class="com.android.contacts2.widget.PinnedHeaderListView"
+            class="com.android.n05e.contacts.widget.PinnedHeaderListView"
             android:id="@android:id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

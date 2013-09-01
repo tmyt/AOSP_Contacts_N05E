@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.android.contacts2.tests.allintents;
+package com.android.n05e.contacts.tests.allintents;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;

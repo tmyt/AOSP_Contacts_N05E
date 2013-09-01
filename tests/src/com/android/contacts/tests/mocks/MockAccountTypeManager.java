@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.contacts2.tests.mocks;
+package com.android.n05e.contacts.tests.mocks;
 
-import com.android.contacts2.model.AccountType;
-import com.android.contacts2.model.AccountTypeManager;
-import com.android.contacts2.model.AccountTypeWithDataSet;
-import com.android.contacts2.model.AccountWithDataSet;
+import com.android.n05e.contacts.model.AccountType;
+import com.android.n05e.contacts.model.AccountTypeManager;
+import com.android.n05e.contacts.model.AccountTypeWithDataSet;
+import com.android.n05e.contacts.model.AccountWithDataSet;
 import com.google.android.collect.Lists;
 import com.google.android.collect.Maps;
 

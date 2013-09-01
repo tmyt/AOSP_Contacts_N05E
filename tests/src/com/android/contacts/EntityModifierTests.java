@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.android.contacts2;
+package com.android.n05e.contacts;
 
 import static android.content.ContentProviderOperation.TYPE_DELETE;
 import static android.content.ContentProviderOperation.TYPE_INSERT;
 import static android.content.ContentProviderOperation.TYPE_UPDATE;
 
-import com.android.contacts2.model.AccountType;
-import com.android.contacts2.model.AccountType.EditType;
-import com.android.contacts2.model.AccountTypeManager;
-import com.android.contacts2.model.DataKind;
-import com.android.contacts2.model.EntityDelta;
-import com.android.contacts2.model.EntityDelta.ValuesDelta;
-import com.android.contacts2.model.EntityDeltaList;
-import com.android.contacts2.model.EntityModifier;
-import com.android.contacts2.model.ExchangeAccountType;
-import com.android.contacts2.model.GoogleAccountType;
-import com.android.contacts2.tests.mocks.ContactsMockContext;
-import com.android.contacts2.tests.mocks.MockAccountTypeManager;
-import com.android.contacts2.tests.mocks.MockContentProvider;
+import com.android.n05e.contacts.model.AccountType;
+import com.android.n05e.contacts.model.AccountType.EditType;
+import com.android.n05e.contacts.model.AccountTypeManager;
+import com.android.n05e.contacts.model.DataKind;
+import com.android.n05e.contacts.model.EntityDelta;
+import com.android.n05e.contacts.model.EntityDelta.ValuesDelta;
+import com.android.n05e.contacts.model.EntityDeltaList;
+import com.android.n05e.contacts.model.EntityModifier;
+import com.android.n05e.contacts.model.ExchangeAccountType;
+import com.android.n05e.contacts.model.GoogleAccountType;
+import com.android.n05e.contacts.tests.mocks.ContactsMockContext;
+import com.android.n05e.contacts.tests.mocks.MockAccountTypeManager;
+import com.android.n05e.contacts.tests.mocks.MockContentProvider;
 import com.google.android.collect.Lists;
 
 import android.content.ContentProviderOperation;

@@ -22,7 +22,7 @@
     <!-- This fragment is an invisible worker fragment that loads the contact details. -->
     <fragment
         android:id="@+id/loader_fragment"
-        class="com.android.contacts2.detail.ContactLoaderFragment"
+        class="com.android.n05e.contacts.detail.ContactLoaderFragment"
         android:layout_height="0dip"
         android:layout_width="0dip"
         android:visibility="gone"/>

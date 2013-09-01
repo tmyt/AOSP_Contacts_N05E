@@ -21,9 +21,9 @@
 
     android:includeInGlobalSearch="true"
     android:queryAfterZeroResults="true"
-    android:searchSuggestAuthority="com.android.contacts2"
+    android:searchSuggestAuthority="com.android.n05e.contacts"
     android:searchSuggestIntentAction="android.provider.Contacts.SEARCH_SUGGESTION_CLICKED"
-    android:searchSuggestIntentData="content://com.android.contacts2/contacts/lookup"
+    android:searchSuggestIntentData="content://com.android.n05e.contacts/contacts/lookup"
     android:searchSettingsDescription="@string/search_settings_description"
 >
 

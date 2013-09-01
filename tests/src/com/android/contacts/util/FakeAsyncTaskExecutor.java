@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.util;
+package com.android.n05e.contacts.util;
 
 import com.google.common.collect.Lists;
 

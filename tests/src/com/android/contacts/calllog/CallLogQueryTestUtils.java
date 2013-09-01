@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.calllog;
+package com.android.n05e.contacts.calllog;
 
 import static junit.framework.Assert.assertEquals;
 

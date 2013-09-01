@@ -16,7 +16,7 @@
 
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.contacts2.detail.ContactDetailTabCarousel"
+    class="com.android.n05e.contacts.detail.ContactDetailTabCarousel"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:scrollbars="none"

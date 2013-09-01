@@ -16,7 +16,7 @@
 
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.contacts2.calllog.CallLogListItemView"
+    class="com.android.n05e.contacts.calllog.CallLogListItemView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -108,7 +108,7 @@
                     android:orientation="horizontal"
                 >
                     <view
-                        class="com.android.contacts2.calllog.CallTypeIconsView"
+                        class="com.android.n05e.contacts.calllog.CallTypeIconsView"
                         android:id="@+id/call_type_icons"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

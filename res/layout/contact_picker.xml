@@ -16,7 +16,7 @@
 
 <view
     xmlns:android="http://schemas.android.com/apk/res/android"
-    class="com.android.contacts2.widget.FullHeightLinearLayout"
+    class="com.android.n05e.contacts.widget.FullHeightLinearLayout"
     style="@style/ContactPickerLayout"
     android:orientation="vertical"
     android:layout_height="match_parent">

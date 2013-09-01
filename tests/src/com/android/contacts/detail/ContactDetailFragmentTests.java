@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.detail;
+package com.android.n05e.contacts.detail;
 
-import com.android.contacts2.detail.ContactDetailFragment.DetailViewEntry;
+import com.android.n05e.contacts.detail.ContactDetailFragment.DetailViewEntry;
 
 import android.content.ContentValues;
 import android.content.Intent;

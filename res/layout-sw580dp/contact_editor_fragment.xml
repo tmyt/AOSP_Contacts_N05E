@@ -14,9 +14,9 @@
      limitations under the License.
 -->
 
-<com.android.contacts2.widget.InterpolatingLayout
+<com.android.n05e.contacts.widget.InterpolatingLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts2"
+    xmlns:ex="http://schemas.android.com/apk/res/com.android.n05e.contacts"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/panel_message">
@@ -34,4 +34,4 @@
         ex:layout_narrowMarginLeft="50dip"
         ex:layout_narrowMarginRight="50dip"/>
 
-</com.android.contacts2.widget.InterpolatingLayout>
+</com.android.n05e.contacts.widget.InterpolatingLayout>

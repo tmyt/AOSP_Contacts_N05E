@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.calllog;
+package com.android.n05e.contacts.calllog;
 
-import com.android.contacts2.PhoneCallDetails;
-import com.android.contacts2.PhoneCallDetailsHelper;
+import com.android.n05e.contacts.PhoneCallDetails;
+import com.android.n05e.contacts.PhoneCallDetailsHelper;
 import com.android.internal.telephony.CallerInfo;
 
 import android.content.Context;

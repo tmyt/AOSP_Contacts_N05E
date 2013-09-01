@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.android.contacts2.editor.PhoneticNameEditorView
+<com.android.n05e.contacts.editor.PhoneticNameEditorView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -50,4 +50,4 @@
 
     </LinearLayout>
 
-</com.android.contacts2.editor.PhoneticNameEditorView>
+</com.android.n05e.contacts.editor.PhoneticNameEditorView>

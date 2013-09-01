@@ -22,7 +22,7 @@
 -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts2"
+    xmlns:ex="http://schemas.android.com/apk/res/com.android.n05e.contacts"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -31,7 +31,7 @@
 
     <!-- Add a first item that gives us enough space to show the carousel -->
     <view
-        class="com.android.contacts2.widget.ProportionalLayout"
+        class="com.android.n05e.contacts.widget.ProportionalLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         ex:ratio="0.6667"

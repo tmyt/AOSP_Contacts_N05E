@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.model;
+package com.android.n05e.contacts.model;
 
-import com.android.contacts2.tests.R;
+import com.android.n05e.contacts.tests.R;
 
 import android.content.Context;
 import android.test.AndroidTestCase;
@@ -25,8 +25,8 @@ import android.test.suitebuilder.annotation.SmallTest;
 /**
  * Test case for {@link AccountType}.
  *
- * adb shell am instrument -w -e class com.android.contacts2.model.AccountTypeTest \
-       com.android.contacts2.tests/android.test.InstrumentationTestRunner
+ * adb shell am instrument -w -e class com.android.n05e.contacts.model.AccountTypeTest \
+       com.android.n05e.contacts.tests/android.test.InstrumentationTestRunner
  */
 @SmallTest
 public class AccountTypeTest extends AndroidTestCase {
@@ -49,7 +49,7 @@ public class AccountTypeTest extends AndroidTestCase {
                 AccountType.getResourceText(c, packageName, externalResID, DEFAULT));
 
         // Load from the contacts package itself.
-        final int internalResId = com.android.contacts2.R.string.launcherDialer;
+        final int internalResId = com.android.n05e.contacts.R.string.launcherDialer;
         assertEquals(c.getString(internalResId),
                 AccountType.getResourceText(c, null, internalResId, DEFAULT));
     }

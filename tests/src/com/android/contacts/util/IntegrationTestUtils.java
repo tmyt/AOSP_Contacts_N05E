@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.util;
+package com.android.n05e.contacts.util;
 
 import static android.os.PowerManager.ACQUIRE_CAUSES_WAKEUP;
 import static android.os.PowerManager.FULL_WAKE_LOCK;

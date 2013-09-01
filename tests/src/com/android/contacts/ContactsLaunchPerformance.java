@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2;
+package com.android.n05e.contacts;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -31,8 +31,8 @@ public class ContactsLaunchPerformance extends LaunchPerformanceBase {
     public void onCreate(Bundle arguments) {
         mIntent.setAction(Intent.ACTION_MAIN);
         mIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-        mIntent.setComponent(new ComponentName("com.android.contacts2",
-                "com.android.contacts2.DialtactsContactsEntryActivity"));
+        mIntent.setComponent(new ComponentName("com.android.n05e.contacts",
+                "com.android.n05e.contacts.DialtactsContactsEntryActivity"));
 
         start();
     }

@@ -14,10 +14,10 @@
  * limitations under the License
  */
 
-package com.android.contacts2.detail;
+package com.android.n05e.contacts.detail;
 
-import com.android.contacts2.util.StreamItemEntry;
-import com.android.contacts2.util.StreamItemEntryBuilder;
+import com.android.n05e.contacts.util.StreamItemEntry;
+import com.android.n05e.contacts.util.StreamItemEntryBuilder;
 import com.google.common.collect.Lists;
 
 import android.test.AndroidTestCase;

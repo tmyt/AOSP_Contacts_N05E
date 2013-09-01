@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.contacts2.voicemail;
+package com.android.n05e.contacts.voicemail;
 
 import static android.provider.VoicemailContract.Status.CONFIGURATION_STATE;
 import static android.provider.VoicemailContract.Status.CONFIGURATION_STATE_CAN_BE_CONFIGURED;
@@ -27,8 +27,8 @@ import static android.provider.VoicemailContract.Status.NOTIFICATION_CHANNEL_STA
 import static android.provider.VoicemailContract.Status.NOTIFICATION_CHANNEL_STATE_NO_CONNECTION;
 import static android.provider.VoicemailContract.Status.NOTIFICATION_CHANNEL_STATE_OK;
 
-import com.android.contacts2.R;
-import com.android.contacts2.voicemail.VoicemailStatusHelper.StatusMessage;
+import com.android.n05e.contacts.R;
+import com.android.n05e.contacts.voicemail.VoicemailStatusHelper.StatusMessage;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;

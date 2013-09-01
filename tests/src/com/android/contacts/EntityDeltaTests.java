@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.contacts2;
+package com.android.n05e.contacts;
 
-import com.android.contacts2.model.EntityDelta;
-import com.android.contacts2.model.EntityDelta.ValuesDelta;
+import com.android.n05e.contacts.model.EntityDelta;
+import com.android.n05e.contacts.model.EntityDelta.ValuesDelta;
 import com.google.android.collect.Lists;
 
 import static android.content.ContentProviderOperation.TYPE_INSERT;

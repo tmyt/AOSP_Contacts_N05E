@@ -32,7 +32,7 @@
             android:layout_width="0dip"
             android:layout_weight="2" />
 
-        <fragment class="com.android.contacts2.editor.ContactEditorFragment"
+        <fragment class="com.android.n05e.contacts.editor.ContactEditorFragment"
             android:id="@+id/contact_editor_fragment"
             android:layout_width="0dip"
             android:layout_weight="6"

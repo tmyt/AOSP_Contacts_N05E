@@ -17,12 +17,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory
         android:title="@string/preference_displayOptions">
-        <com.android.contacts2.preference.SortOrderPreference
+        <com.android.n05e.contacts.preference.SortOrderPreference
             android:key="sortOrder"
             android:title="@string/display_options_sort_list_by"
             android:dialogTitle="@string/display_options_sort_list_by" />
 
-        <com.android.contacts2.preference.DisplayOrderPreference
+        <com.android.n05e.contacts.preference.DisplayOrderPreference
             android:key="displayOrder"
             android:title="@string/display_options_view_names_as"
             android:dialogTitle="@string/display_options_view_names_as" />

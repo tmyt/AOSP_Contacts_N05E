@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.android.contacts2;
+package com.android.n05e.contacts;
 
 import static android.content.ContentProviderOperation.TYPE_ASSERT;
 import static android.content.ContentProviderOperation.TYPE_DELETE;
 import static android.content.ContentProviderOperation.TYPE_INSERT;
 import static android.content.ContentProviderOperation.TYPE_UPDATE;
 
-import com.android.contacts2.EntityModifierTests.MockContactsSource;
-import com.android.contacts2.model.AccountType;
-import com.android.contacts2.model.EntityDelta;
-import com.android.contacts2.model.EntityModifier;
-import com.android.contacts2.model.EntityDeltaList;
-import com.android.contacts2.model.EntityDelta.ValuesDelta;
+import com.android.n05e.contacts.EntityModifierTests.MockContactsSource;
+import com.android.n05e.contacts.model.AccountType;
+import com.android.n05e.contacts.model.EntityDelta;
+import com.android.n05e.contacts.model.EntityModifier;
+import com.android.n05e.contacts.model.EntityDeltaList;
+import com.android.n05e.contacts.model.EntityDelta.ValuesDelta;
 import com.google.android.collect.Lists;
 
 import android.content.ContentProviderOperation;

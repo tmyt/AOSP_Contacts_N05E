@@ -24,7 +24,7 @@
         android:background="#000000" />
     <view
         android:id="@+id/photo"
-        class="com.android.contacts2.detail.TransformableImageView"
+        class="com.android.n05e.contacts.detail.TransformableImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop" />
